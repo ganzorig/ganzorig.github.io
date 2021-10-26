@@ -1,0 +1,50 @@
+body {
+  background-color: #BED0F7;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+h2 {
+  margin-top: 24px;
+}
+
+hr {
+  border-color: #87EAF2;
+}
+
+p::first-letter {
+  font-size: 1.5em;
+  color:#0E7C86;
+}
+
+dl {
+  line-height: 24px;
+}
+
+dt, p > strong {
+  color: #C99A2E;
+}
+
+dd {
+  color: #0E7C86;
+}
+
+img.rounded {
+  border-radius: 36px;
+  border: 1px solid #F191C1;
+}
+
+ol.reversed-order {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+footer {
+  background-color: #647ACB;
+}
+
+a:hover {
+  text-decoration: underline;
+}
