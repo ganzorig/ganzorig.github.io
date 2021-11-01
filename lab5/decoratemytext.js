@@ -53,3 +53,22 @@ function malkovitch() {
     })
     .join(' ');
 }
+
+function pigLatin() {
+  var text = document.getElementById('text').value;
+  let i = 0;
+  while (i < text.length) {
+    if (!isVowel(text[i].toLowerCase())) {
+      text += text[i];
+      text = text.substring(1);
+    } else {
+      text += 'ay';
+      break;
+    }
+  }
+  document.getElementById('text').value = text;
+}
+
+function isVowel(c) {
+  return c === 'a' || c === 'e' || c === 'i' || c === 'o' || c === 'u';
+}
