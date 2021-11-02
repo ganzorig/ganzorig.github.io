@@ -37,6 +37,10 @@ ul li, ol li {
   line-height: 24px;
 }
 
+ul li strong {
+  opacity: 0.8;
+}
+
 footer {
   background-color: #D9E2EC;
   padding: 16px 0;
