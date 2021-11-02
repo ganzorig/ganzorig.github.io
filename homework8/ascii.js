@@ -1,4 +1,5 @@
 window.onload = function () {
+  'use strict';
   let timer;
   let delay = 250;
   let currentAnimation = 'blank';
@@ -42,7 +43,7 @@ window.onload = function () {
       e.currentTarget.value + 'pt';
   }
 
-  function onSpeedChange(e) {
+  function onSpeedChange() {
     if (getElement('speed').checked == true) {
       delay = 50;
     } else {
