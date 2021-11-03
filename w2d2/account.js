@@ -42,5 +42,6 @@ function onClick() {
 }
 
 window.onload = function () {
+  'use strict';
   document.getElementById('create').onclick = onClick;
 };
