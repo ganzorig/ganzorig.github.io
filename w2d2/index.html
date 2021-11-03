@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module and Closure</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+
+  <body class="left">
+    
+    <div class="container form">
+      
+      <div>
+        <label>Account Name:</label>
+        <input type="text" id="account-name" autofocus />
+      </div>
+
+      <div>
+        <label>Deposit:</label>
+        <input type="number" id="deposit" />
+      </div>
+
+      <button id="create" onclick="onClick()">Create new Account</button>
+
+      <div>
+        <textarea id="log" rows="8" cols="48" readonly></textarea>
+      </div>
+    </div>
+
+    <div class="validations">
+      <a href="https://validator.w3.org/nu/?doc=https://ganzorig.github.io/w2d2/index.html"> 
+        <img src="https://manalabs.org/img/w3c-html.png" alt="Valid HTML" />
+      </a>
+      <a href="http://jigsaw.w3.org/css-validator/validator?uri=https://ganzorig.github.io/w2d2/index.html">
+        <img src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" />
+      </a>
+      <a target="_blank" href="http://mumstudents.org/jshint/check.php?uri=https://ganzorig.github.io/w2d2/index.html">
+        <img src="../homework8/jscheck-small.png" alt="JavaScript Lint">
+      </a>
+    </div>
+
+    <script src="./account.js"></script>
+  </body>
+</html>

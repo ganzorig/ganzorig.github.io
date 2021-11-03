@@ -14,7 +14,11 @@ body {
   justify-content: center;
 }
 
-button {
+body.left {
+    text-align: left;
+}
+
+button#start {
   padding: 16px 24px;
   font-size: 1.5em;
   width: 200px;
@@ -23,6 +27,32 @@ button {
 
 .container {
     padding: 10%;
+}
+
+.container.form {
+    padding: 24px;
+    background-color: #DCEEFB;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.form label {
+    font-weight: bold;
+    flex-basis: 160px;
+    display: inline-block;
+}
+
+.form > div {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form > div > input {
+    flex: 1;
+}
+
+.form button {
+    margin-bottom: 10px;
 }
 
 #result {
