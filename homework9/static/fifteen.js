@@ -1,5 +1,6 @@
 $(document).ready(function () {
   // initialize
+  'use strict';
   init();
 
   function init() {
