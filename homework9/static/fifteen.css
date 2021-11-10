@@ -25,11 +25,13 @@ body, button {
 	position: absolute;
 	transition: border-color 0.3s ease;
 	margin-right: -2px;
+	transition-duration: 0.2s;
+	transition-property: left, top, right, bottom;
 }
 
 /* This class should be applied to a puzzle piece that can be moved. */
 .movablepiece:hover {
-	border-color: #f88;
+	border-color: rgb(40, 34, 34);
 	color: #f88;
 }
 
