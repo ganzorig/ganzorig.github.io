@@ -31,7 +31,7 @@ body, button {
 
 /* This class should be applied to a puzzle piece that can be moved. */
 .movablepiece:hover {
-	border-color: rgb(40, 34, 34);
+	border-color: #f88;
 	color: #f88;
 }
 
