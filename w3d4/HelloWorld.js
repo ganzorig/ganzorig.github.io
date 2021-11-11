@@ -10,7 +10,7 @@ http
     res.write('<br/>');
     res.write('<br/>');
 
-    // Exercise 1
+    // Exercise 2
     res.write(
       '<strong>The date and time are currently:</strong> ' + date.myDate()
     );
