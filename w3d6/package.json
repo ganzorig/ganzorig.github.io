@@ -1,0 +1,24 @@
+{
+  "name": "number-quiz",
+  "version": "1.0.0",
+  "description": "Web  programming",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganzorig/ganzorig.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ganzorig/ganzorig.github.io/issues"
+  },
+  "homepage": "https://github.com/ganzorig/ganzorig.github.io#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  }
+}
