@@ -1,0 +1,38 @@
+body {
+  color: #243B53;
+  font-size: 18px;
+  padding-bottom: 64px;
+}
+
+header {
+  padding: 24px 0;
+  border-bottom: 1px solid #D9E2EC;
+  background: #F0F4F8;
+  position: sticky;
+  top: 0;
+}
+
+h1 {
+  margin-bottom: 24px;
+}
+
+.container {
+  max-width: 570px;
+}
+
+#result {
+  padding: 24px 0;
+}
+
+footer {
+  background-color: #F0F4F8;
+  padding: 16px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  border-top: 1px solid #D9E2EC;
+}
+
+footer a {
+  text-decoration: none;
+}
