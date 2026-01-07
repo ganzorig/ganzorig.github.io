@@ -9,3 +9,11 @@ body {
   color: #1B5A9B;
   margin: 0;
 }
+
+#vanta-bg {
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
