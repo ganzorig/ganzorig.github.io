@@ -1,2 +1,1 @@
-# CS472
-Web  programming
+# Ganzorig
